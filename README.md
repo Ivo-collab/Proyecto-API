@@ -1,23 +1,22 @@
-# Proyecto-API
-🚨 API: Puente entre Zabbix y Zammad
+# Instructions
+Now is your opportunity to build a quiz! Your quiz can work however you wish to.
 
-¿Te imaginas que las alertas de tu sistema de monitoreo se conviertan automáticamente en tickets de soporte?
-Con esta API es posible. 🎉
+Firstly, we're going to separate out of our *interactive* logic into the `main()` function, like so:
 
-Esta API actúa como un puente inteligente:
+```
+def main():
+  print("Hello learners!")
 
-📡 Recibe alertas directamente desde Zabbix.
+if __name__=="__main__":
+  main()
+```
 
-📝 Genera tickets en Zammad de forma automática con:
+This is Python *boilerplate* code, which will only run when the program is invoked by a person. All your code should now be inside a function - either this `main()` function (where you can put things like input statements) or another function.
 
-✨ Título de la alerta
+Automatic grading will be based on the functionality of the following function (which must be incorporated into your program):
 
-✨ Grupo asignado
+* `trivia_fetch(num)` - this function must exist in your program, it should take one number as input, and it should output a dictionary of trivia about that number.
 
-✨ Prioridad configurada
+**Remember** This project will be automatically graded, and computers are very literal!
 
-✨ Cliente relacionado
-
-✨ Artículo con el detalle completo del evento
-
-El resultado: un flujo de trabajo más ágil, menos tareas manuales y un soporte técnico más eficiente. ⚡
+**Note:** Use the tests! There's nothing wrong with running the tests until they pass. It's not cheating!
