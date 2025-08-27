@@ -10,14 +10,14 @@ Esta API actúa como un puente inteligente:
 
 📝 Genera tickets en Zammad de forma automática con:
 
-Título de la alerta
+✨ Título de la alerta
 
-Grupo asignado
+✨ Grupo asignado
 
-Prioridad configurada
+✨ Prioridad configurada
 
-Cliente relacionado
+✨ Cliente relacionado
 
-Artículo con el detalle completo del evento
+✨ Artículo con el detalle completo del evento
 
 El resultado: un flujo de trabajo más ágil, menos tareas manuales y un soporte técnico más eficiente. ⚡
